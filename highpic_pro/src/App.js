@@ -1,4 +1,3 @@
-import './asserts/css/index.css';
 import Header from './Component/Header';
 
 function App() {

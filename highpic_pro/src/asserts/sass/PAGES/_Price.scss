@@ -78,8 +78,6 @@
             margin-bottom: 15px;
             display: flex;
             flex-direction: column;
-            justify-content: end;
-            align-items: end;
 
             @include mixins.responsive(lg) {
                 font-size: 20px;

@@ -615,6 +615,23 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.App {
+  margin: 0;
+  flex-grow: 1;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -940,10 +957,7 @@ li {
 }
 .header .nav-icon {
   display: flex;
-  overflow-y: hidden;
   font-size: 2rem;
-  background-color: blue;
-  color: blue;
 }
 @media only screen and (max-width: 576px) {
   .header .nav-icon {
@@ -978,34 +992,6 @@ li {
 }
 .header .hidden {
   display: none;
-}
-
-/* Reset default list styles */
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-Content {
-  width: 100px;
-  height: 580px;
-  display: block;
-  z-index: 100;
-  position: absolute;
-  background-color: #e6e6e6;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Dropdown content items */
-.dropdown-Content li {
-  padding: 10px;
-}
-
-.dropdown-menu {
-  z-index: 10;
 }
 
 footer {
@@ -1871,8 +1857,6 @@ footer a:hover {
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  align-items: end;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .price-list-body p {
